@@ -9,22 +9,27 @@
 </head>
 <body>
     <header>
-        <h1>Tabuada</h1>
+        <h1>Tabuada da multiplicação</h1>
     </header>
 
     <section>
         <div>
-            <p>Digite um número: <input type="number"> <button>Gerar tabuada</button></p>
+            <p>Digite um número: <input type="number" name="num" id="txtn">
+            <button onclick="tabuada()">Gerar tabuada</button></p>
             
         </div>
 
         <div id="res">
-             
+             <select name="tabuada" id="seltab" size="10">
+                
+             </select>
         </div>
     </section>
 
     <footer>
         <p>&copy; CursoemVídeo</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
